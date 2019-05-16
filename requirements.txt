@@ -4,3 +4,5 @@ jupyterthemes
 matplotlib
 numpy
 scipy
+tqdm
+
