@@ -1,6 +1,7 @@
 imageio
 jupyter
 jupyterthemes
+jupyter_contrib_nbextensions
 matplotlib
 numpy
 scipy
