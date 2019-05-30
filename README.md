@@ -17,7 +17,7 @@ Or, clone the repo, then build and run the container with:
 
 ```
 git clone https://github.com/augeas/SonicElectronics2019.git
-docker build -f ./SonicElectronics2019/non_binder_dockerfile -t sonicelectronics onicElectronics2019/
+docker build -f ./SonicElectronics2019/non_binder_dockerfile -t sonicelectronics SonicElectronics2019/
 docker run --rm -t -i -p 8888:8888 sonicelectronics
 ```
 
