@@ -21,3 +21,6 @@ docker build -f ./SonicElectronics2019/non_binder_dockerfile -t sonicelectronics
 docker run --rm -t -i -p 8888:8888 sonicelectronics
 ```
 
+Find the notebook server at [http://localhost:8888](http://localhost:8000).
+
+
