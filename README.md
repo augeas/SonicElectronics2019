@@ -1,5 +1,8 @@
 # SonicElectronics2019
 
+&copy; Giles Greenway 2019.
+Licensed under the [Apache 2.0 Licence](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
 This is a Jupyter Notebook for the "Never Mind the Molluscs" talk at the [2019 Sonic Electronics Festival](https://sonicelectronicsfestival.org/).
 
 To play with it, you can use this MyBinder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/augeas/SonicElectronics2019/master?filepath=sonic_electronics.ipynb)
