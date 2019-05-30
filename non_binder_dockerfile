@@ -1,0 +1,23 @@
+
+FROM python:3.6.8-slim-stretch
+
+RUN apt-get update && apt-get install -y ffmpeg
+
+RUN mkdir jupyter
+
+WORKDIR / jupyter
+
+ADD img img
+
+COPY requirements.txt requirements.txt
+
+RUN pip3 install -r requirements.txt
+
+COPY sonic_electronics.ipynb sonic_elecronics.ipynb
+
+COPY sp_pars.json sp_pars.json
+
+RUN jupyter contrib nbextension install --user \
+    && jupyter nbextension enable codefolding/main
+
+CMD jupyter notebook --allow-root --no-browser --NotebookApp.token=$NBTOKEN --NotebookApp.ip='0.0.0.0'
