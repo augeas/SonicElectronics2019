@@ -7,7 +7,7 @@ This is a Jupyter Notebook for the "Never Mind the Molluscs" talk at the [2019 S
 
 To play with it, you can use this MyBinder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/augeas/SonicElectronics2019/master?filepath=sonic_electronics.ipynb)
 
-If you just want to see the links, try a [static version](https://github.com/augeas/SonicElectronics2019/blob/master/sonic_electronics.ipynb)
+If you just want to see the links, try a [static version](https://github.com/augeas/SonicElectronics2019/blob/master/sonic_electronics.ipynb).
 
 ### Using [Docker](https://docs.docker.com/install/):
 
